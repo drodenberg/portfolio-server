@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_metadata_college_infos",
+  "info": {
+    "displayName": "CollegeInfo"
+  },
+  "options": {},
+  "attributes": {
+    "school": {
+      "type": "string"
+    },
+    "degree": {
+      "type": "string"
+    },
+    "years": {
+      "type": "string"
+    },
+    "awards": {
+      "type": "string"
+    }
+  }
+}

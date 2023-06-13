@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "communities",
+  "info": {
+    "singularName": "community",
+    "pluralName": "communities",
+    "displayName": "Community",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "accomplishments": {
+      "displayName": "Accomplishments",
+      "type": "component",
+      "repeatable": true,
+      "component": "accomplishments.accomplishments"
+    }
+  }
+}

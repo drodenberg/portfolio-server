@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_accomplishments_accomplishments",
+  "info": {
+    "displayName": "Accomplishments",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "accomplishment": {
+      "type": "string"
+    }
+  }
+}

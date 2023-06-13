@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_histories",
+  "info": {
+    "singularName": "work-history",
+    "pluralName": "work-histories",
+    "displayName": "WorkHistory",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "tenure": {
+      "type": "string"
+    },
+    "accomplishments": {
+      "displayName": "accomplishment",
+      "type": "component",
+      "repeatable": true,
+      "component": "accomplishments.accomplishment"
+    },
+    "resume": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::resume.resume",
+      "inversedBy": "workHistory"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_address_addresses",
+  "info": {
+    "displayName": "address"
+  },
+  "options": {},
+  "attributes": {
+    "personalEmail": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "githubLink": {
+      "type": "string"
+    },
+    "linkedInLink": {
+      "type": "string"
+    }
+  }
+}

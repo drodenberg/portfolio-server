@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_accomplishments_metadata",
+  "info": {
+    "displayName": "Metadata"
+  },
+  "options": {},
+  "attributes": {
+    "specifics": {
+      "type": "text"
+    }
+  }
+}

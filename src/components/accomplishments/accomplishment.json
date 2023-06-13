@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_accomplishments_accomplishment",
+  "info": {
+    "displayName": "accomplishment"
+  },
+  "options": {},
+  "attributes": {
+    "accomplishment": {
+      "displayName": "Metadata",
+      "type": "component",
+      "repeatable": true,
+      "component": "accomplishments.metadata"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
