@@ -20,6 +20,13 @@
       "type": "component",
       "repeatable": true,
       "component": "accomplishments.accomplishments"
+    },
+    "resume": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::resume.resume",
+      "private": true,
+      "inversedBy": "community"
     }
   }
 }

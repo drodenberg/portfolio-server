@@ -18,18 +18,6 @@
     "lookingFor": {
       "type": "text"
     },
-    "workHistory": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::work-history.work-history",
-      "mappedBy": "resume"
-    },
-    "skills": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::skill.skill",
-      "mappedBy": "resume"
-    },
     "contact": {
       "displayName": "address",
       "type": "component",
@@ -47,6 +35,24 @@
     },
     "currentPosition": {
       "type": "string"
+    },
+    "workHistory": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work-history.work-history",
+      "mappedBy": "resume"
+    },
+    "community": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::community.community",
+      "mappedBy": "resume"
+    },
+    "skills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skill.skill",
+      "mappedBy": "resume"
     }
   }
 }
