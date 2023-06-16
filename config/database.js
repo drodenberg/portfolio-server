@@ -3,11 +3,11 @@ module.exports = ({ env }) => ({
   connection: {
     client: 'postgres',
     connection: {
-      host: env('DATABASE_HOST', 'dpg-ci5qpilph6eh6mrbo48g-a.ohio-postgres.render.com'),
+      host: env('DATABASE_HOST', 'ep-lingering-frog-750562-pooler.us-east-1.postgres.vercel-storage.com'),
       port: env.int('DATABASE_PORT', 5432),
-      database: env('DATABASE_NAME', 'database_yevt'),
-      user: env('DATABASE_USERNAME', 'drodenberg'),
-      password: env('DATABASE_PASSWORD', 'm1WsjEBAOXz7fRC3M8jBUSS7gQWZfYbc'),
+      database: env('DATABASE_NAME', 'verceldb'),
+      user: env('DATABASE_USERNAME', 'default'),
+      password: env('DATABASE_PASSWORD', 'yJEO9SYeI4Bd'),
       schema: env('DATABASE_SCHEMA', 'public'), // Not required
       ssl: {
         rejectUnauthorized: env.bool('DATABASE_SSL_SELF', false),
