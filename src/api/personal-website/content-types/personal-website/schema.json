@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personal_websites",
+  "info": {
+    "singularName": "personal-website",
+    "pluralName": "personal-websites",
+    "displayName": "PersonalWebsite",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "position": {
+      "type": "string"
+    },
+    "shortExperienceDescription": {
+      "type": "string"
+    },
+    "personalTagLine": {
+      "type": "string"
+    },
+    "shortBio": {
+      "type": "string"
+    },
+    "shortCareerDescription": {
+      "type": "string"
+    },
+    "portfolios": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::portfolio.portfolio",
+      "mappedBy": "personal_website"
+    },
+    "expertise": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::expertise.expertise",
+      "mappedBy": "personal_website"
+    },
+    "previous_clients": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::previous-client.previous-client",
+      "mappedBy": "personal_website"
+    },
+    "work_histories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::work-history.work-history",
+      "mappedBy": "personal_website"
+    }
+  }
+}

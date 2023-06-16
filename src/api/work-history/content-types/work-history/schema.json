@@ -33,6 +33,13 @@
       "target": "api::resume.resume",
       "private": true,
       "inversedBy": "workHistory"
+    },
+    "personal_website": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::personal-website.personal-website",
+      "private": true,
+      "inversedBy": "work_histories"
     }
   }
 }
