@@ -50,6 +50,9 @@
       "relation": "oneToMany",
       "target": "api::work-history.work-history",
       "mappedBy": "personal_website"
+    },
+    "mknhjgfh": {
+      "type": "json"
     }
   }
 }
